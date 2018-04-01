@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="script3.js"></script>
+</head>
+<body>
+	<h1>Eléments d'entrée de texte</h1>
+	<form action="">
+		<fieldset>
+			<label>Zone de texte standard</label>
+			<input type="text" id="txtNormal" />
+
+			<label>Zone de mot de passe</label>
+			<input type="password" id="pwd" />
+			
+			<label>Zone cachée</label>
+			<input type="hidden" id="hidden" value="Top secret" />
+			
+			<textarea id="txtArea" rows="10" cols="40">Grande zone de multiligne. Elle peut contenir beaucoup de texte.</textarea>
+			
+			<button type="button" onclick="processForm()">Cliquez ici</button>
+		</fieldset>
+	</form>
+
+	<div id="output"></div>
+</body>
+</html>
